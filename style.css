@@ -121,7 +121,7 @@
   
   /* het phan chinh sua anh dai dien voi may cai thong tin lien he */
   .content__body{
-    width: 100%;
+    width: 70%;
     height: 100%;
     overflow: hidden;
   }
