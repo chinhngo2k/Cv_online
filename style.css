@@ -154,6 +154,7 @@
                     width: 100%;
                     border-radius: 50%;
                     object-fit: cover;
+                    border: 5px solid white;
                 }
                 
                 .text--info {
@@ -239,11 +240,11 @@
                 }
                 
                 .item__left {
-                    width: 50%;
+                    width: 55%;
                 }
                 
                 .item__right {
-                    width: 50%;
+                    width: 45%;
                 }
                 
                 .timeline__about--item .item__right ul li {
@@ -285,4 +286,136 @@
                     display: inline-block;
                     color: black;
                     font-weight: 400;
+                }
+                
+                .skill-bar-container {
+                    position: relative;
+                    width: 100%;
+                    border-radius: 4px;
+                    background-color: whitesmoke;
+                    margin-bottom: 0.5em;
+                }
+                
+                .skill-bar {
+                    display: block;
+                    border-radius: 4px;
+                    height: 25px;
+                }
+                
+                .level1 {
+                    width: 20%;
+                    background-color: #d7edfa;
+                }
+                
+                .level2 {
+                    width: 40%;
+                    background-color: #c8e7f8;
+                }
+                
+                .level3 {
+                    width: 60%;
+                    background-color: #b9e0f7;
+                }
+                
+                .level4 {
+                    width: 80%;
+                    background-color: #a9d9f5;
+                }
+                
+                .level5 {
+                    width: 100%;
+                    background-color: #9ad3f3;
+                }
+                
+                .skill-name {
+                    position: absolute;
+                    top: 5px;
+                    left: 10px;
+                    color: #333;
+                }
+                
+                .skill-percent {
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                    color: #999;
+                }
+                
+                .timeline__skill {
+                    padding: 30px 20px;
+                    border: 2px solid #EBF0F2;
+                    border-radius: 15px;
+                }
+                
+                .timeline__yourself {
+                    width: 100%;
+                    display: flex;
+                }
+                
+                .timeline__yourself .yourself--left {
+                    width: 50%;
+                }
+                
+                .timeline__yourself .yourself--right {
+                    width: 50%;
+                }
+                
+                .timeline__yourself p {
+                    font-size: 18px;
+                    color: #59cdfa;
+                }
+                
+                .timeline__plan {
+                    margin-top: 10px;
+                }
+                
+                .timeline__plan span {
+                    font-size: 18px;
+                    color: #59cdfa;
+                }
+                
+                .timeline__plan p {
+                    color: black;
+                }
+                
+                .timeline__contact {
+                    width: 100%;
+                    margin: 0 auto;
+                    /* display: flex;
+                    justify-content: space-between; */
+                }
+                /* .time__contact .contact {
+                    width: 50%;
+                }
+                 */
+                
+                .time__contact .map {
+                    width: 100%;
+                }
+                
+                .contact--form {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                
+                .form--input {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .form--input input {
+                    width: 47%;
+                    margin: 15px 0;
+                    border-radius: 10px;
+                }
+                
+                .form--button {
+                    margin-top: 10px;
+                    width: 100%;
+                    text-align: right;
+                }
+                
+                .form--button button {
+                    margin-top: 10px;
                 }
